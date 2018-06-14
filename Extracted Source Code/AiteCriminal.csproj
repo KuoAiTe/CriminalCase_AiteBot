@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{65C5D78D-188B-4E9E-A0E6-167D5A3864D4}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <OutputType>WinExe</OutputType>
+    <AssemblyName>AiteCriminal</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="System.Core" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="Newtonsoft.Json" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AiteCriminal.Properties\Resources.cs" />
+    <Compile Include="AiteCriminal.Properties\Settings.cs" />
+    <Compile Include="AiteCriminal\card_w.cs" />
+    <Compile Include="AiteCriminal\CCRequest.cs" />
+    <Compile Include="AiteCriminal\Eat_Food.cs" />
+    <Compile Include="AiteCriminal\friends.cs" />
+    <Compile Include="AiteCriminal\Hamburger.cs" />
+    <Compile Include="AiteCriminal\MainWindow.cs" />
+    <Compile Include="AiteCriminal\Request.cs" />
+    <Compile Include="AiteCriminal\SendFreeEnergy.cs" />
+    <Compile Include="AiteCriminal\user.cs" />
+    <Compile Include="AiteCriminal\Window1.cs" />
+    <Compile Include="AiteCriminal\Window2.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WpfApplication1\App.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AiteCriminal\Newtonsoft.Json.dll" />
+    <EmbeddedResource Include="back.png" />
+    <EmbeddedResource Include="blur.jpg" />
+    <EmbeddedResource Include="donate.png" />
+    <EmbeddedResource Include="energy.png" />
+    <EmbeddedResource Include="enter.png" />
+    <EmbeddedResource Include="flat-avatar.png" />
+    <EmbeddedResource Include="gift.png" />
+    <EmbeddedResource Include="level.png" />
+    <EmbeddedResource Include="money.png" />
+    <EmbeddedResource Include="mushroom.png" />
+    <EmbeddedResource Include="reload.png" />
+    <EmbeddedResource Include="report.png" />
+    <EmbeddedResource Include="reward_0.png" />
+    <EmbeddedResource Include="reward_1.png" />
+    <EmbeddedResource Include="reward_2.png" />
+    <EmbeddedResource Include="santa.png" />
+    <EmbeddedResource Include="uiconstock-50-free-christmas-santa-claus-2.ico" />
+    <EmbeddedResource Include="xp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="app.xaml" />
+    <Page Include="card_w.xaml" />
+    <Page Include="eat_food.xaml" />
+    <Page Include="hamburger.xaml" />
+    <Page Include="mainwindow.xaml" />
+    <Page Include="sendfreeenergy.xaml" />
+    <Page Include="window1.xaml" />
+    <Page Include="window2.xaml" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

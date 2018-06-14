@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Window x:Class="AiteCriminal.card_w" Title="card_w" Height="181" Width="349" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <Grid>
+    <CheckBox Name="Get_Report" Content="解鎖報告" HorizontalAlignment="Left" Margin="21,32,0,0" VerticalAlignment="Top" IsChecked="True" />
+    <CheckBox Name="Log_Report" Content="記錄" HorizontalAlignment="Left" Margin="22,72,0,0" VerticalAlignment="Top" IsChecked="True" />
+    <CheckBox Name="Get_Energy2" Content="能量 2" HorizontalAlignment="Left" Margin="108,32,0,0" VerticalAlignment="Top" IsChecked="True" />
+    <CheckBox Name="Log_Energy2" Content="記錄" HorizontalAlignment="Left" Margin="109,72,0,0" VerticalAlignment="Top" IsChecked="True" />
+    <CheckBox Name="Get_Energy1" Content="能量1" HorizontalAlignment="Left" Margin="191,32,0,0" VerticalAlignment="Top" IsChecked="True" />
+    <CheckBox Name="Log_Energy1" Content="記錄" HorizontalAlignment="Left" Margin="191,72,0,0" VerticalAlignment="Top" IsChecked="True" />
+    <CheckBox Name="Get_Card" Content="撲克牌" HorizontalAlignment="Left" Margin="268,32,0,0" VerticalAlignment="Top" IsChecked="True" />
+    <CheckBox Name="Log_Card" Content="記錄" HorizontalAlignment="Left" Margin="269,72,0,0" VerticalAlignment="Top" IsChecked="True" />
+    <Button Content="開始收禮" HorizontalAlignment="Left" Margin="125,104,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click" />
+  </Grid>
+</Window>
