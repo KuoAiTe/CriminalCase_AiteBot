@@ -11,13 +11,14 @@ If you would like to add some features or change anything, the only way you can 
 3. 將選單中從 top 選到 iframe_canvas_fb_https  
 4. 在下面的輸入欄裡面輸入config.userId 以及 config.signature 會得到兩串數字  
 5. 將這兩串數字分別貼在登錄畫面上的那兩格  
-
+6. 注意額外多出來的空白或是其他字元  
 English
 1. First, use Chrome and enter https://apps.facebook.com/criminalcase  
-2. Press F12 or Ctrl+Shift+I and click Console
-3. Change the drop-down list shown with the name 'top' to 'iframe_canvas_fb_https'
-4. Type config.userId and config.signature to get two strings in the console
-5. Copy the two strings and paste them to the two input fields respectively
+2. Press F12 or Ctrl+Shift+I and click Console  
+3. Change the drop-down list shown with the name 'top' to 'iframe_canvas_fb_https'  
+4. Type config.userId and config.signature to get two strings in the console  
+5. Copy the two strings and paste them to the two input fields respectively  
+6. Keep the inputs concise and pay attention to hidden extra spaces.  
 
 ### Screenshots
 ![](https://github.com/KuoAiTe/CriminalCase_AiteBot/blob/master/Screenshot/1.png)  
