@@ -12,6 +12,7 @@ If you would like to add some features or change anything, the only way you can 
 4. 在下面的輸入欄裡面輸入config.userId 以及 config.signature 會得到兩串數字  
 5. 將這兩串數字分別貼在登錄畫面上的那兩格  
 6. 注意額外多出來的空白或是其他字元  
+  
 English
 1. First, use Chrome and enter https://apps.facebook.com/criminalcase  
 2. Press F12 or Ctrl+Shift+I and click Console  
