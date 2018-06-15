@@ -4,6 +4,21 @@ Due to an accident crash on my computer, unfortunately, the source code of this 
 Sorry that I cannot upload the original code, the code here is extracted by .NET reflector.
 If you would like to add some features or change anything, the only way you can do is using reverse engineering and assembly language.
 
+### How to use
+中文  
+1. 使用 Chrome 瀏覽器連上 https://apps.facebook.com/criminalcase  
+2. 按下F12或是 Ctrl+Shit+I，然後點擊 Console  
+3. 將選單中從 top 選到 iframe_canvas_fb_https  
+4. 在下面的輸入欄裡面輸入config.userId 以及 config.signature 會得到兩串數字  
+5. 將這兩串數字分別貼在登錄畫面上的那兩格  
+
+English
+1. First, use Chrome and enter https://apps.facebook.com/criminalcase  
+2. Press F12 or Ctrl+Shift+I and press Console
+3. Change the drop-down list shown with the name 'top' to 'iframe_canvas_fb_https'
+4. Type config.userId and config.signature to get two strings in the console
+5. Copy the two strings and paste them to the two input fields respectively
+
 ### Screenshots
 ![](https://github.com/KuoAiTe/CriminalCase_AiteBot/blob/master/Screenshot/1.png)  
 ![](https://github.com/KuoAiTe/CriminalCase_AiteBot/blob/master/Screenshot/2.png)  
