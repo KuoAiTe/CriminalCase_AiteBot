@@ -14,7 +14,7 @@ If you would like to add some features or change anything, the only way you can 
 
 English
 1. First, use Chrome and enter https://apps.facebook.com/criminalcase  
-2. Press F12 or Ctrl+Shift+I and press Console
+2. Press F12 or Ctrl+Shift+I and click Console
 3. Change the drop-down list shown with the name 'top' to 'iframe_canvas_fb_https'
 4. Type config.userId and config.signature to get two strings in the console
 5. Copy the two strings and paste them to the two input fields respectively
