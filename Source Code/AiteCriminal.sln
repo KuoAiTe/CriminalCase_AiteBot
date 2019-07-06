@@ -1,8 +1,9 @@
+﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26730.15
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AiteCriminal - 1.4.1", "AiteCriminal - 1.4.1.csproj", "{EF628DA9-9EF3-4321-AC31-753508ADE6B9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AiteCriminal", "AiteCriminal.csproj", "{EF628DA9-9EF3-4321-AC31-753508ADE6B9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,6 +20,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {4546CFEE-0552-4ABA-8A2B-EC7E97921E52}
+		SolutionGuid = {F27047B5-BA36-4252-B136-003F5995F794}
 	EndGlobalSection
 EndGlobal

@@ -1,20 +1,20 @@
 ﻿AiteCriminal
 
 
-exe
+winexe
 C#
 .cs
-C:\Users\Ai-Te\Documents\AiteBot\obj\Debug\
-
+C:\Users\Ai-Te\Downloads\CriminalCase_AiteBot\Source Code\obj\Debug\
+AiteCriminal
 none
 false
 DEBUG;TRACE
-C:\Users\Ai-Te\Documents\AiteBot\App.xaml
-7-1077307199
+C:\Users\Ai-Te\Downloads\CriminalCase_AiteBot\Source Code\App.xaml
+71731120371
 
-16-745563924
-91758728534
-card_w.xaml;Eat_Food.xaml;SendFreeEnergy.xaml;Window2.xaml;Hamburger.xaml;MainWindow.xaml;Window1.xaml;
+17-630231840
+10-9707421
+AiteCriminal\xaml\card_w.xaml;AiteCriminal\xaml\Eat_Food.xaml;AiteCriminal\xaml\SendFreeEnergy.xaml;AiteCriminal\xaml\Window2.xaml;AiteCriminal\xaml\Hamburger.xaml;AiteCriminal\xaml\MainWindow.xaml;AiteCriminal\xaml\Window1.xaml;
 
 False
 
