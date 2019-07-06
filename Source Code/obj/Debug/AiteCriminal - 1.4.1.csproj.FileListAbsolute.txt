@@ -1,0 +1,28 @@
+C:\Users\Ai-Te\Documents\AiteBot\obj\Debug\AiteCriminal - 1.4.1.csprojResolveAssemblyReference.cache
+C:\Users\Ai-Te\Documents\AiteBot\obj\Debug\card_w.baml
+C:\Users\Ai-Te\Documents\AiteBot\obj\Debug\Eat_Food.baml
+C:\Users\Ai-Te\Documents\AiteBot\obj\Debug\SendFreeEnergy.baml
+C:\Users\Ai-Te\Documents\AiteBot\obj\Debug\Window2.baml
+C:\Users\Ai-Te\Documents\AiteBot\obj\Debug\Hamburger.baml
+C:\Users\Ai-Te\Documents\AiteBot\obj\Debug\MainWindow.baml
+C:\Users\Ai-Te\Documents\AiteBot\obj\Debug\Window1.baml
+C:\Users\Ai-Te\Documents\AiteBot\obj\Debug\App.baml
+C:\Users\Ai-Te\Documents\AiteBot\obj\Debug\card_w.g.cs
+C:\Users\Ai-Te\Documents\AiteBot\obj\Debug\Eat_Food.g.cs
+C:\Users\Ai-Te\Documents\AiteBot\obj\Debug\SendFreeEnergy.g.cs
+C:\Users\Ai-Te\Documents\AiteBot\obj\Debug\Window2.g.cs
+C:\Users\Ai-Te\Documents\AiteBot\obj\Debug\Hamburger.g.cs
+C:\Users\Ai-Te\Documents\AiteBot\obj\Debug\MainWindow.g.cs
+C:\Users\Ai-Te\Documents\AiteBot\obj\Debug\Window1.g.cs
+C:\Users\Ai-Te\Documents\AiteBot\obj\Debug\App.g.cs
+C:\Users\Ai-Te\Documents\AiteBot\obj\Debug\AiteCriminal_MarkupCompile.cache
+C:\Users\Ai-Te\Documents\AiteBot\obj\Debug\AiteCriminal.g.resources
+C:\Users\Ai-Te\Documents\AiteBot\obj\Debug\AiteCriminal.Properties.Resources.resources
+C:\Users\Ai-Te\Documents\AiteBot\obj\Debug\AiteCriminal - 1.4.1.csproj.GenerateResource.Cache
+C:\Users\Ai-Te\Documents\AiteBot\obj\Debug\AiteCriminal - 1.4.1.csproj.CoreCompileInputs.cache
+C:\Users\Ai-Te\Documents\AiteBot\bin\Debug\AiteCriminal.exe
+C:\Users\Ai-Te\Documents\AiteBot\bin\Debug\AiteCriminal.pdb
+C:\Users\Ai-Te\Documents\AiteBot\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Ai-Te\Documents\AiteBot\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Ai-Te\Documents\AiteBot\obj\Debug\AiteCriminal.exe
+C:\Users\Ai-Te\Documents\AiteBot\obj\Debug\AiteCriminal.pdb

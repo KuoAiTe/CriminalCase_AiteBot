@@ -1,8 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Window x:Class="AiteCriminal.SendFreeEnergy" Title="SendFreeEnergy" Height="300" Width="300" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
-  <Grid>
-    <ListBox Name="friend" HorizontalAlignment="Left" Height="140" Margin="90,10,0,0" VerticalAlignment="Top" Width="110" />
-    <Button Content="贈送能量" Margin="95,165,102,0" VerticalAlignment="Top" Click="Button_Click" />
-    <Button Content="贈送全部" HorizontalAlignment="Left" Margin="95,205,0,0" VerticalAlignment="Top" Width="95" Click="Button_Click_1" />
-  </Grid>
-</Window>

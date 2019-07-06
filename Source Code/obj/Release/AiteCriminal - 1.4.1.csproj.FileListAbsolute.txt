@@ -1,0 +1,29 @@
+C:\Users\Ai-Te\Documents\AiteBot\obj\Release\AiteCriminal\xaml\card_w.baml
+C:\Users\Ai-Te\Documents\AiteBot\obj\Release\AiteCriminal\xaml\Eat_Food.baml
+C:\Users\Ai-Te\Documents\AiteBot\obj\Release\AiteCriminal\xaml\SendFreeEnergy.baml
+C:\Users\Ai-Te\Documents\AiteBot\obj\Release\AiteCriminal\xaml\Window2.baml
+C:\Users\Ai-Te\Documents\AiteBot\obj\Release\AiteCriminal\xaml\Hamburger.baml
+C:\Users\Ai-Te\Documents\AiteBot\obj\Release\AiteCriminal\xaml\MainWindow.baml
+C:\Users\Ai-Te\Documents\AiteBot\obj\Release\AiteCriminal\xaml\Window1.baml
+C:\Users\Ai-Te\Documents\AiteBot\obj\Release\App.baml
+C:\Users\Ai-Te\Documents\AiteBot\obj\Release\AiteCriminal\xaml\card_w.g.cs
+C:\Users\Ai-Te\Documents\AiteBot\obj\Release\AiteCriminal\xaml\Eat_Food.g.cs
+C:\Users\Ai-Te\Documents\AiteBot\obj\Release\AiteCriminal\xaml\SendFreeEnergy.g.cs
+C:\Users\Ai-Te\Documents\AiteBot\obj\Release\AiteCriminal\xaml\Window2.g.cs
+C:\Users\Ai-Te\Documents\AiteBot\obj\Release\AiteCriminal\xaml\Hamburger.g.cs
+C:\Users\Ai-Te\Documents\AiteBot\obj\Release\AiteCriminal\xaml\MainWindow.g.cs
+C:\Users\Ai-Te\Documents\AiteBot\obj\Release\AiteCriminal\xaml\Window1.g.cs
+C:\Users\Ai-Te\Documents\AiteBot\obj\Release\App.g.cs
+C:\Users\Ai-Te\Documents\AiteBot\obj\Release\AiteCriminal_MarkupCompile.cache
+C:\Users\Ai-Te\Documents\AiteBot\obj\Release\AiteCriminal.g.resources
+C:\Users\Ai-Te\Documents\AiteBot\obj\Release\AiteCriminal.AiteCriminal.Properties.Resources.resources
+C:\Users\Ai-Te\Documents\AiteBot\obj\Release\AiteCriminal - 1.4.1.csproj.GenerateResource.Cache
+C:\Users\Ai-Te\Documents\AiteBot\obj\Release\AiteCriminal - 1.4.1.csproj.CoreCompileInputs.cache
+C:\Users\Ai-Te\Documents\AiteBot\bin\Release\AiteCriminal.exe.config
+C:\Users\Ai-Te\Documents\AiteBot\bin\Release\AiteCriminal.exe
+C:\Users\Ai-Te\Documents\AiteBot\bin\Release\AiteCriminal.pdb
+C:\Users\Ai-Te\Documents\AiteBot\bin\Release\Newtonsoft.Json.dll
+C:\Users\Ai-Te\Documents\AiteBot\bin\Release\Newtonsoft.Json.xml
+C:\Users\Ai-Te\Documents\AiteBot\obj\Release\AiteCriminal.exe
+C:\Users\Ai-Te\Documents\AiteBot\obj\Release\AiteCriminal.pdb
+C:\Users\Ai-Te\Documents\AiteBot\obj\Release\AiteCriminal - 1.4.1.csprojResolveAssemblyReference.cache
