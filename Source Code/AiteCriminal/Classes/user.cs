@@ -688,18 +688,18 @@ namespace AiteCriminal
 			return str;
 		}
 
-		public static string get_pet_name(string pet_id)
+		public static string getPetName(string pet_id)
 		{
-			string item;
+			string petName;
 			try
 			{
-				item =Global.Pets[pet_id];
+                petName = Global.Pets[pet_id];
 			}
 			catch
 			{
-				item = string.Concat("寵物編號:", pet_id);
+                petName = string.Concat("寵物編號:", pet_id);
 			}
-			return item;
+			return petName;
 		}
 
 		public static int get_stage_id(int index)

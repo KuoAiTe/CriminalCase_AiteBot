@@ -342,8 +342,8 @@ namespace AiteCriminal
 			JToken jToken = JToken.Parse(cCRequest.result);
 			if (jToken["error"] == null)
 			{
-				((dynamic)user.data)["response"]["pets"]["adopted"][pet_id]["cooldown"] = 300;
-				((dynamic)user.data)["response"]["pets"]["adopted"][pet_id]["loyalty"] = ((dynamic)user.data)["response"]["pets"]["adopted"][pet_id]["loyalty"] + 1;
+				user.data["response"]["pets"]["adopted"][pet_id]["cooldown"] = 300;
+				user.data["response"]["pets"]["adopted"][pet_id]["loyalty"] = user.data["response"]["pets"]["adopted"][pet_id]["loyalty"] + 1;
 				try
 				{
 					Dictionary<string, int> petXp = user.pet_xp;
@@ -356,15 +356,14 @@ namespace AiteCriminal
 					user.pet_xp[pet_id] = 1;
                     return false;
 				}
-				empty = (string)(string.Concat("[", user.get_pet_name(pet_id), "]Lv:") + ((dynamic)user.data)["response"]["pets"]["adopted"][pet_id]["level"] + "XP:" + user.pet_xp[pet_id] + "Loyalty:" + ((dynamic)user.data)["response"]["pets"]["adopted"][pet_id]["loyalty"]);
-				user.PetLog(empty);
+				empty = (string.Concat("[", user.getPetName(pet_id), "]Lv:") + user.data["response"]["pets"]["adopted"][pet_id]["level"] + "XP:" + user.pet_xp[pet_id] + "Loyalty:" + user.data["response"]["pets"]["adopted"][pet_id]["loyalty"]);
 			}
 			else
 			{
 				empty = string.Concat((object)"餵食Error:\r\n", jToken, (object)"\r\n");
 				try
 				{
-					((dynamic)user.data)["response"]["pets"]["adopted"] = jToken["error"]["sync"]["pets"]["adopted"];
+					user.data["response"]["pets"]["adopted"] = jToken["error"]["sync"]["pets"]["adopted"];
 					user.coins = Convert.ToInt32(jToken["error"]["sync"]["coins"]);
 				}
 				catch
@@ -372,6 +371,7 @@ namespace AiteCriminal
                     return false;
 				}
 			}
+            user.PetLog(empty);
             return true;
 		}
 

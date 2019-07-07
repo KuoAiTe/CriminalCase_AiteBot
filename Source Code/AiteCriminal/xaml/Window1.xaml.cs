@@ -199,7 +199,7 @@ namespace AiteCriminal
 					user.stage[user.get_stage_id(j)].case_stars = 5;
 					scene[j].Visibility = System.Windows.Visibility.Hidden;
 				}
-				foreach (JProperty stageDatum in user.StageData["response"]["nodes"])
+				foreach (JObject stageDatum in user.StageData["response"]["nodes"])
 				{
 					int num3 = Convert.ToInt32(stageDatum["id"]);
 					if (num3 < 1011 || num3 > 1033)
@@ -224,14 +224,14 @@ namespace AiteCriminal
 				}
 				if (user.Elite_Medal(user.case_id) == 6 || user.Elite_Medal(user.case_id) == 0 && user.Medal(user.case_id) == 3)
 				{
-					if ((int)user.StageData["response"]["available_stars"] > 2 && !user.isCurrent_case)
+                    int avaialbeStars = Convert.ToInt32(user.StageData["response"]["available_stars"]);
+					if (avaialbeStars > 2 && !user.isCurrent_case)
 					{
 						Hamburger hamburger = new Hamburger()
 						{
 							Top = this.Top + 150,
 							Left = this.Left + 105
 						};
-						int stageData = (int)user.StageData["response"]["available_stars"];
 						hamburger.ShowDialog();
 						if (hamburger.ButtonClicked)
 						{
@@ -243,31 +243,31 @@ namespace AiteCriminal
 							{
 								if (hamburger.BuyStarBurger_Index == 1)
 								{
-									user.food_0 = user.food_0 + stageData;
-									user.WriteLog(string.Concat("兌換柳橙汁成功 - ", stageData, " 個"));
+									user.food_0 = user.food_0 + avaialbeStars;
+									user.WriteLog(string.Concat("兌換柳橙汁成功 - ", avaialbeStars, " 個"));
 									return;
 								}
 								if (hamburger.BuyStarBurger_Index == 2)
 								{
-									user.WriteLog(string.Concat("兌換洋芋片成功 - ", stageData / 2, " 個"));
-									user.food_1 = user.food_1 + stageData / 2;
+									user.WriteLog(string.Concat("兌換洋芋片成功 - ", avaialbeStars / 2, " 個"));
+									user.food_1 = user.food_1 + avaialbeStars / 2;
 									return;
 								}
 								if (hamburger.BuyStarBurger_Index == 3)
 								{
-									user.WriteLog(string.Concat("兌換漢堡成功 - ", stageData / 3, " 個"));
-									user.food_2 = user.food_2 + stageData / 3;
+									user.WriteLog(string.Concat("兌換漢堡成功 - ", avaialbeStars / 3, " 個"));
+									user.food_2 = user.food_2 + avaialbeStars / 3;
 									return;
 								}
 								if (hamburger.BuyStarBurger_Index == 7)
 								{
-									user.WriteLog(string.Concat("兌換能量成功 - ", stageData * 20, " 點"));
-									user.energy = user.energy + stageData * 20;
+									user.WriteLog(string.Concat("兌換能量成功 - ", avaialbeStars * 20, " 點"));
+									user.energy = user.energy + avaialbeStars * 20;
 									return;
 								}
 								if (hamburger.BuyStarBurger_Index == 8)
 								{
-									int num6 = stageData * 5000;
+									int num6 = avaialbeStars * 5000;
 									if (num6 > 99999999)
 									{
 										num6 = 99999999;
@@ -279,8 +279,8 @@ namespace AiteCriminal
 								}
 								if (hamburger.BuyStarBurger_Index == 9)
 								{
-									user.WriteLog(string.Concat("兌換貼紙包成功 - ", stageData / 3, " 點"));
-									user.stickers_pack_count = user.stickers_pack_count + stageData / 3;
+									user.WriteLog(string.Concat("兌換貼紙包成功 - ", avaialbeStars / 3, " 點"));
+									user.stickers_pack_count = user.stickers_pack_count + avaialbeStars / 3;
 									return;
 								}
 							}
@@ -771,14 +771,14 @@ namespace AiteCriminal
 		public void AutoPetFeeding_Callback(object state)
 		{
 			if (user.data["response"]["pets"] != null)
-			{
-				foreach (JProperty pet in user.data["response"]["pets"]["adopted"])
+            {
+                foreach (JProperty pet in user.data["response"]["pets"]["adopted"])
                 {
                     String petID = pet.Name;
                     JToken petData = pet.Value;
 					int level = Convert.ToInt32(petData["level"]);
 					int cooldownAfter = Convert.ToInt32(petData["cooldown"]) -5;
-					if (level == 5 || cooldownAfter >= 0)
+                    if (level == 5 || cooldownAfter >= 0)
 						continue;
                     if ( Request.FeedPet(petID) )
                         petData["cooldown"] = cooldownAfter;

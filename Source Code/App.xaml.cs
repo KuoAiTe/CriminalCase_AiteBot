@@ -1,6 +1,10 @@
 using System;
-using System.Collections.Generic;
+using System.CodeDom.Compiler;
+using System.Diagnostics;
+using System.IO;
+using System.Reflection;
 using System.Windows;
+
 namespace AiteCriminal
 {
     //[STAThread]
@@ -8,9 +12,9 @@ namespace AiteCriminal
     {
         private void Application_Startup(object sender, StartupEventArgs e)
         {
-            MainWindow a = new MainWindow();
-            a.Show();
-            Console.WriteLine("aa");
+            MainWindow main = new MainWindow();
+            main.Show();
+
         }
     }
 }
